@@ -163,7 +163,7 @@ drawbasex/
 
 ## Acknowledgments
 
-- Inspired by tools like [ERD Editor](https://erdeditor.com/) and [dbdiagram.io](https://dbdiagram.io)
-- Built with [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), and [fabric.js](http://fabricjs.com/)
+- Inspired by tools like [drawDB.io](https://github.com/drawdb-io/drawdb)
+- Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/)
 ```
 
