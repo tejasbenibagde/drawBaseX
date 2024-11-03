@@ -1,12 +1,15 @@
+'use client'
 import { ModeToggle } from "../mode-toggle";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { Menubar, MenubarMenu } from "@/components/ui/menubar";
 import { Sparkles } from "lucide-react";
 import { PencilOff } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
-  return (
+  const pathname = usePathname()
+  return pathname !== '/editor' && (
     <nav>
       {/* Navbar placeholder to prevent content shift */}
       <div className="w-full h-[68px]" />
