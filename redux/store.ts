@@ -1,10 +1,7 @@
-// redux/store.ts
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "./features/counterSlice";
 import tableReducer from "./features/tableSlice";
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
     table: tableReducer,
   },
 });
