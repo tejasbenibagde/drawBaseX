@@ -8,6 +8,15 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": {
+    "name": "Tejas Benibagde",
+    "email": "tejas.benibagde@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasbenibagde/drawBaseX.git"
+  },
+  "homepage": "https://github.com/tejasbenibagde/drawBaseX#readme",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.2",

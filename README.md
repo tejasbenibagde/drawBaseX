@@ -125,7 +125,7 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Project Structure
+<!-- ## Project Structure
 
 ```
 drawbasex/
@@ -139,11 +139,11 @@ drawbasex/
 ├── public/           # Static assets
 ├── tests/           # Test files
 └── docs/            # Documentation
-```
+``` -->
 
 ## Roadmap
 
-- [ ] Basic diagram editor
+- [ x ] Basic diagram editor
 - [ ] Table creation and editing
 - [ ] Relationship mapping
 - [ ] Schema export for PostgreSQL
@@ -158,12 +158,10 @@ drawbasex/
 ## Support
 
 - Create an issue for bug reports or feature requests
-- Join our [Discord community](link-to-discord) for discussions
-- Check out our [documentation](link-to-docs) for guides and tutorials
 
 ## Acknowledgments
 
 - Inspired by tools like [drawDB.io](https://github.com/drawdb-io/drawdb)
 - Built with [Next.js](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/)
-```
+
 
