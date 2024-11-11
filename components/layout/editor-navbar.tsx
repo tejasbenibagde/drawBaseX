@@ -13,6 +13,8 @@ import {
 import { ModeToggle } from "../mode-toggle";
 import { Plus } from "lucide-react";
 
+import AddTable from "./editor-menu/add-table";
+
 const components = [
   {
     title: "Alert Dialog",
@@ -70,7 +72,7 @@ function EditorNavbar() {
                     Ctrl+S
                   </ListItem>
                   <ListItem href="/docs/installation" title="Save As Template" className="p-2">
-                    Ctrl+S
+                    Ctrl+Shift+S
                   </ListItem>
                   <ListItem href="/docs/installation" title="Rename" className="p-2">
                     Ctrl+S
@@ -87,7 +89,7 @@ function EditorNavbar() {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+            <NavigationMenuTrigger>Edit</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                 {components.map((component) => (
@@ -102,7 +104,9 @@ function EditorNavbar() {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-
+          <NavigationMenuItem>
+            <AddTable variant={"outline"}><Plus /></ AddTable>
+          </NavigationMenuItem>
           <NavigationMenuItem>
             <Link href="/docs" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
